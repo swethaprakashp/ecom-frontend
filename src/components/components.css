@@ -1,0 +1,40 @@
+.card-container{
+    display: flex;
+    height: 25vh;
+    width: 12vw;
+    justify-content: flex-start;
+    margin-top: 2px;
+    flex-direction: column;
+    margin: 10px;
+    background-color: rgb(249, 247, 246);
+    align-items: center;
+    padding-top: 20px;
+}
+.product-name{
+    font-size: 16px;
+    font-weight: 500;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+.product-price{
+    font-size: 16px;
+    font-weight: 500;
+    color: #DB4444;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+.category-conatainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    justify-content: center;
+    border : 1px solid rgb(190, 186, 186);
+    margin: 10px;
+    padding : 10px;
+    border-radius: 4px;
+}
+.category-title{
+    font-size: 16px;
+    font-weight: 400;
+}
